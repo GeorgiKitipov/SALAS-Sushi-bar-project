@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,500&display=swap');
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url(../img/order-bg6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container
+{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow:  0 2px 5px rgba(0, 0, 0, 0.719);
+    width: 400px;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.header
+{
+    background-color: #141414fb;
+    padding: 20px 40px;
+    border-bottom: solid 1px #f0f0f0;
+    text-align: center;
+}
+
+.header h2
+{
+    margin: 0;
+}
+.header img{
+    height: 5rem;
+}
+.form
+{
+    padding: 30px 40px;
+}
+
+.form-control
+{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.form-control label
+{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.form-control input
+{
+
+    border:solid 2px #000000;
+    border-radius: 0 5px 5px 0;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    font-family: inherit;
+    position: relative;
+    left: 1rem;
+}
+.form-control.success input
+{
+    border-color: #2ecc71;
+}
+.form-control.error input
+{
+    border-color: #e74c3c;
+}
+.form-control i
+{
+    position: absolute;
+    top:55px;
+    right: 0px;
+    visibility: hidden;
+}
+.form-control.success i.fa-check-circle
+{
+    visibility: visible;
+    color: #2ecc71;
+}
+.form-control.success i.fa-user
+{
+    background-color: #2ecc71;
+}
+.form-control.success i.fa-phone
+{
+    background-color: #2ecc71;
+}
+.form-control.success i.fa-envelope
+{
+    background-color: #2ecc71;
+}
+.form-control.error i.fa-exclamation-circle
+{
+    visibility: visible;
+    color: #e74c3c;
+}
+.form-control.error i.fa-user
+{
+    visibility: visible;
+    background-color: #e74c3c;
+}
+.form-control.error i.fa-phone
+{
+    visibility: visible;
+    background-color: #e74c3c;
+}
+.form-control.error i.fa-envelope
+{
+    visibility: visible;
+    background-color: #e74c3c;
+}
+
+
+.form-control small
+{
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.form-control.error  small
+{
+    visibility: visible;
+    color: #e74c3c;
+}
+.form button
+{
+    background-color: #141414fb;
+    border: solid 2px #141414fb;
+    color: rgb(255, 255, 255);
+    display: block;
+    width: 22.4rem;
+    padding: 10px;
+    font-size: 16px;
+    font-family: inherit;
+    border-radius: 4px;
+    transition: 0.3s;
+    outline: none;
+    text-transform: uppercase;
+    position: relative;
+    left: -1.3rem;
+    margin-top: 2rem;
+}
+form button:hover
+{
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: black;
+    border-color: black;
+}
+
+.fa-envelope
+{
+    color: rgb(221, 221, 221);
+    visibility: visible !important;
+    position: relative !important;
+    font-size: 1.2rem;
+    left: -4.3rem;
+    top: 2.65rem !important;
+    padding: 0.75rem 0.53rem;
+    background-color: black;
+    border-radius: 5px 0 0 5px;
+}
+.fa-phone
+{
+    color: rgb(221, 221, 221);
+    visibility: visible !important;
+    position: relative !important;
+    font-size: 1.3rem;
+    left: -8.5rem;
+    top: 2.7rem !important;
+    padding: 0.72rem 0.63rem;
+    background-color: black;
+    border-radius: 5px 0 0 5px;
+}
+.user1
+{
+    color: rgb(221, 221, 221);
+    visibility: visible !important;
+    position: relative !important;
+    font-size: 1.3rem;
+    left: -6.3rem;
+    top: 2.7rem !important;
+    padding: 0.73rem 0.66rem;
+    background-color: black;
+    border-radius: 5px 0 0 5px;
+}
+.user2
+{
+    color: rgb(221, 221, 221);
+    visibility: visible !important;
+    position: relative !important;
+    font-size: 1.3rem;
+    left: -6.2rem;
+    top: 2.7rem !important;
+    padding: 0.70rem 0.65rem ;
+    background-color: black;
+    border-radius: 5px 0 0 5px;
+}
+.user3
+{
+    color: rgb(221, 221, 221);
+    visibility: visible !important;
+    position: relative !important;
+    font-size: 1.3rem;
+    left: -8.2rem;
+    top: 2.7rem !important;
+    padding: 0.72rem 0.65rem;
+    background-color: black;
+    border-radius: 5px 0 0 5px;
+}
+
+
+.lastname
+{
+    
+    border:solid 2px #000000;
+    border-radius: 0 5px 5px 0;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    font-family: inherit;
+}
+.textarea h3
+{
+    text-align: center;
+    color: rgb(36, 36, 36);
+}
+.textarea
+{
+    text-align: center;
+}
+.textarea textarea
+{
+    border: solid 1px rgb(156, 156, 156) ;
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
+
+#error_
+{
+    display: none;
+}

@@ -1,0 +1,76 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.bg-img
+{
+    background-image: url(../img/order-bg6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 29.05rem;
+    padding-top: 10rem;
+}
+.bg-img h1
+{
+    font-size: 8rem;
+    text-align: center;
+    color: rgb(69, 133, 69);
+    font-family: inherit;
+}
+.bg-img h3
+{
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(182, 182, 182);
+    font-family: inherit;
+}
+
+
+
+@media (max-width:834px)
+{
+    .bg-img h1
+    {
+        font-size: 6rem;
+    }
+}
+@media (max-width:590px)
+{
+    .bg-img
+    {
+        padding-top: 15rem;
+        height: 30rem;
+    }
+    .bg-img h1
+    {
+        font-size: 4rem;
+    }
+    .bg-img h3
+    {
+        font-size: 1.5rem;
+        text-align: center;
+        color: rgb(182, 182, 182);
+        font-family: inherit;
+    }
+}
+@media (max-width:394px)
+{
+    .bg-img
+    {
+        padding-top: 20rem;
+        height: 25rem;
+    }
+    .bg-img h1
+    {
+        font-size: 3rem;
+    }
+    .bg-img h3
+    {
+        font-size: 1.2rem;
+        text-align: center;
+        color: rgb(182, 182, 182);
+        font-family: inherit;
+    }
+}

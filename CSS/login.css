@@ -1,0 +1,257 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+.bg-img
+{
+    width: 100%;
+    height: 40rem;
+    background-image: url(../img/sushi-bg5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.main-form
+{
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.747);
+    width: 30rem;
+    height: 35rem;
+    border-radius: 0px 0px 10px 10px;
+}
+.main-form input
+{
+    outline: none;
+    height: 2.5rem;
+    width: 18rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+    border: solid 2px rgb(46, 104, 151);
+    color: rgb(46, 104, 151);
+    border-radius: 10px;
+    transition: 0.3s;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.main-form input:focus
+{
+    width: 23rem;
+    transition: 0.3s;
+    border-color: rgb(51, 160, 100);
+    color: rgb(51, 160, 100);
+}
+::placeholder
+{
+    color: rgb(233, 233, 233);
+    font-size: 1.2rem;
+}
+.main-form h1
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 0.1rem;
+    color: rgb(233, 233, 233);
+    text-align: center;
+    margin: 1rem 0;
+    margin-bottom: 2rem !important;
+    text-shadow: 1px 1px 3px rgb(20, 20, 20);
+}
+.logo-img img
+{
+    height: 7rem;
+}
+.logo-img
+{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+.btn-log-in
+{
+    padding: 0.5rem 1rem;
+    background-color: rgba(0, 0, 0, 0);
+    border: solid 2px rgb(46, 104, 151);
+    border-radius: 5px;
+    color: rgb(46, 104, 151);
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    outline: none;
+    transition: 0.4s;
+    margin-bottom: 0.5rem;
+}
+.btn-log-in:hover
+{
+    cursor: pointer;
+    transition: 0.4s;
+    border-color: rgb(51, 160, 100);
+    background-color: rgb(51, 160, 100);
+    color: rgb(0, 0, 0);
+}
+.show
+{
+    display: inline-block;
+}
+.check-box
+{
+    width: 1rem !important;
+    height: 1rem !important;
+}
+.move-right
+{
+    margin-left:2.65rem;
+}
+.fa-eye
+{
+    color: rgb(46, 104, 151);
+    font-size: 1.1rem;
+}
+
+.social-btn-container
+{
+    text-align: center;
+    margin-top: 4rem;
+}
+.social-btn
+{
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border: solid 2px white;
+    width: 11rem;
+    margin: 0.3rem 0.3rem;
+    color: white;
+    border-radius: 5px;
+}
+.btn-facebook
+{
+    color: rgb(64, 64, 138);
+    border-color: rgb(64, 64, 138);
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 0.3s;
+
+}
+.btn-facebook:hover
+{
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: rgb(64, 64, 138);
+    color: black;
+    box-shadow: 1px 1px 5px rgb(64, 64, 138);
+}
+.btn-instagram
+{
+    color: rgb(134, 18, 119);
+    border-color: rgb(134, 18, 119);
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 0.3s;
+}
+.btn-instagram:hover
+{
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: rgb(134, 18, 119);
+    color: black;
+    box-shadow: 1px 1px 5px rgb(134, 18, 119);
+}
+.btn-twitter
+{
+    color: rgb(49, 123, 167);
+    border-color: rgb(49, 123, 167);
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 0.3s;
+}
+.btn-twitter:hover
+{
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: rgb(49, 123, 167);
+    color: black;
+    box-shadow: 1px 1px 5px rgb(49, 123, 167);
+}
+#message
+{
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(196, 61, 61);
+    margin-bottom: 0.5rem;
+}
+
+
+/*---Media---*/
+
+@media(max-width:511px)
+{
+    .main-form {
+        width: 27rem;
+        height: 37rem;
+    }
+    .main-form input:focus
+    {
+        width: 21rem;
+    }
+}
+@media(max-width:462px)
+{
+    .main-form {
+        width: 24rem;
+        height: 37rem;
+    }
+}
+@media(max-width:416px)
+{
+    .main-form {
+        width: 21rem;
+        height: 38rem;
+    }
+    .move-right {
+        margin-left: 13px;
+        margin-right: 0.7rem;
+    }
+}
+@media(max-width:367px)
+{
+    .main-form 
+    {
+        width: 18rem;
+        height: 38rem;
+    }
+    .move-right 
+    {
+        margin-left: 0px;
+        margin-right: 0.7rem;
+    }
+    .btn-log-in 
+    {
+        display: block;
+        margin: 0 auto;
+        width: 5.6rem;
+        margin-bottom: 0.8rem !important;
+    }
+    .social-btn-container 
+    {
+        margin-top: 2rem;
+    }
+    .social-btn 
+    {
+        width: 6rem;
+    }
+    .bg-img 
+    {
+        height: 42rem;
+    }
+    .main-form input:focus
+    {
+        width: 18rem;
+    }
+}

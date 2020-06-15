@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="CSS/login.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="bg-img">
+        <form action="#" method="POST" class="main-form">
+            <div class="logo-img">
+                <img src="img/logo3.png" alt="">
+            </div>
+            <h1>
+                Login
+            </h1>
+            <p id="message"></p>
+            <input type="text" id="username" placeholder="User name" required>
+            <p id="message2"></p>
+            <input type="password" id="password" placeholder="Password" required class="show move-right">
+            <input type="checkbox" onclick="myFunction()" class="show check-box"> <i class="fa fa-eye"></i>
+            <p id="message3"></p>
+            <button type="button" id="btn-log" class="btn-log-in" onclick="loginBtn()">Login</button>
+            <button type="button" id="btn-regist" class="btn-log-in">Signup</button>
+            <br>
+            <a href="#">Forgot password</a>
+
+            <div class="social-btn-container">
+                <a href="https://www.facebook.com/">
+                    <div class="social-btn btn-facebook">
+                        <i class="fa fa-facebook"> Facebook</i>
+                    </div>
+                </a>
+
+                <a href="https://www.instagram.com/?hl=bg">
+                    <div class="social-btn btn-instagram">
+                        <i class="fa fa-instagram "> Instagram</i>
+                    </div>
+                </a>
+
+                <a href="https://twitter.com/login?lang=bg">
+                    <div class="social-btn btn-twitter">
+                        <i class="fa fa-twitter " > Twitter</i>
+                    </div>
+                </a>
+
+
+            </div>
+
+        </form>
+    </div>
+
+
+
+        <!--JavaScript section-->
+        <script src="JavaScript/Js.js"></script>
+</body>
+</html>

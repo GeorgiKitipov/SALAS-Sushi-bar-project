@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>SALAS-Sushi-Bar</title>
+</head>
+<body>
+    <!--Start Header-->
+    <header id="main-header" class="header">
+        <!--Start Navigation-Bar-->
+        <nav id="top-navigation-bar" class="main-navigation-bar">
+            <div class="logo">
+                <img src="img/logo3.png" alt="">
+            </div>
+            <ul>
+
+                <a href="#home">
+                    <li>
+                        Home
+                    </li>
+                </a>
+
+                <a href="#sushi" >
+                    <li>
+                        Sushi
+                    </li>
+                </a>
+
+                <a href="#" onclick="noregistration()">
+                    <li>
+                        Salads
+                    </li>
+                </a>
+
+                <a href="#" onclick="noregistration()">
+                    <li>
+                        Team
+                    </li>
+                </a>
+                <a href="Login.html">
+                    <li class="logout">
+                        Login
+                    </li>
+                </a>
+            </ul>
+            <div class="dropdown">
+                <button class="dropbtn"><i class="fa fa-bars"></i></button>
+                <div class="dropdown-content">
+
+                        <a href="#home">
+                             Home
+                        </a>
+        
+                        <a href="#sushi">
+                                Sushi
+                        </a>
+        
+                        <a href="salads.html">
+                                Salads                       
+                        </a>
+        
+                        <a href="Team.html">
+                                Team
+                        </a>
+                        <a href="Login.html">
+                                Login
+                        </a>
+                </div>
+              </div>
+        </nav>
+        <!--End Navigation-Bar-->
+    </header>
+<!--End Header-->
+<!--Home section-->
+    <div id="home" class="home-img-and-header-holder">
+        <video loop muted autoplay>
+            <source src="img/bgVideo.mp4" type="video/mp4">
+        </video>
+        <div class="home-header">
+            <h1>Welcom to Sushi bar and dinner Salas</h1>
+            <h3>Here you can try the most delicious sushi</h3>
+            <a href="#promo">
+                <button type="button" class="btn-header-light" >Promo</button>
+            </a>
+
+        </div>
+    </div>
+<!-- End Home section-->
+
+<!--Promotions-->
+    <div class="promo-section" id="promo">
+        <h1>Promotion</h1>
+        <center><hr class="horizontal-line"></center>
+        
+        <div class="product-info">
+            <a href="img/promo-sushi.jpg" target="_blank">
+                <div class="promo-food-card">
+                    <img src="img/promo-sushi.jpg" alt="">
+                </div>
+            </a>
+            <p>Combo bacao <sup class="size-of-sushi">840g</sup></p>
+            <center><hr class="horizontal-line sushi-card-name"></center>
+            <p class="sushi-products">
+                Uramaki salmon 4 pcs.,
+                Uramaki crispy chicken 4 pcs.,
+                Uramaki Gora 4 pcs., 
+                Uramaki tone 4 pcs.,
+                Uramaki spicy tone 4 pcs.,
+                Chef crispy chicken and Philadelphia 4 pcs.,
+                Uramaki crispy tone 4 pcs., 
+                Chef filla 4 pcs. - 32 pcs.
+            </p>
+            <a href="#">
+                <button type="button"   class="sushi-price" id="myBtn8">Add 42<sup>37</sup></button>
+            </a>
+            
+        </div>
+
+        <div class="product-info">
+            <a href="img/promo-sushi2.jpg" target="_blank">
+                <div class="promo-food-card">
+                    <img src="img/promo-sushi2.jpg" alt="">
+                </div>
+            </a>
+            <p>Combo Sesa <sup class="size-of-sushi">400g</sup></p>
+            <center><hr class="horizontal-line sushi-card-name"></center>
+            <p class="sushi-products">
+
+                Uramaki salmon 4 pcs., 
+                Uramaki crispy chicken 4 pcs.,
+                Uramaki Gora 4 pcs., 
+                Uramaki tone 4 pcs. - 16 pcs.
+            </p>
+            <a href="#">
+                <button type="button"   class="sushi-price second-sushi" id="myBtn9">Add 21<sup>68</sup></button>
+            </a>
+            
+        </div>
+
+        <div class="product-info">
+            <a href="img/promo-sushi3.jpg" target="_blank">
+                <div class="promo-food-card">
+                    <img src="img/promo-sushi3.jpg" alt="">
+                </div>
+            </a>
+            <p>Combo masuta <sup class="size-of-sushi">680g</sup></p>
+            <center><hr class="horizontal-line sushi-card-name"></center>
+            <p class="sushi-products">
+
+                Sensei 4pcs. Oishi san roll 4pcs.,
+                Ur. mountain 4pcs., Ur. salmon 4 pcs.,
+                Futomaki chef 6 pcs.,
+                Chef spicy salmon 4 pcs. - 26 pcs.
+            </p>
+            <a href="#">
+                <button type="button"   class="sushi-price tird-sushi" id="myBtn10">Add 35<sup>37</sup></button>
+            </a>
+            
+        </div>
+        <h3>If you like this promotion you can countinue scrolling down and see our sushi section.</h3>
+        <a href="#sushi">
+            <button type="button" class="btn-header-light red-color-text">Continue</button>
+        </a>
+    </div>
+<!--End Promotions-->
+
+<!--Sushi Section-->
+    <div class="sushi-section" id="sushi">
+        <div class="dark-back">
+            <h1>Sushi</h1>
+            <center><hr class="horizontal-line sushi-section-h1-underline"></center>
+            
+                <a id="myBtn">
+                    <div class="promo-food-card sushi-section-card">
+                        <img src="img/img1.jpg" alt="">
+                    </div>
+                </a>
+
+                <a id="myBtn2">
+                    <div class="promo-food-card sushi-section-card">
+                        <img src="img/img4.jpg" alt="">
+                    </div>
+                </a>
+
+                <a id="myBtn3">
+                    <div class="promo-food-card sushi-section-card">
+                        <img src="img/img5.jpg" alt="">
+                    </div>
+                </a>
+    
+                <a  id="myBtn4">
+                    <div class="promo-food-card sushi-section-card">
+                        <img src="img/img6.jpg" alt="">
+                    </div>
+                </a>
+
+    
+                <a  id="myBtn5">
+                    <div class="promo-food-card sushi-section-card spec-card-sushi">
+                        <img src="img/img8.jpg" alt="">
+                    </div>
+                </a>
+
+                <a id="myBtn6">
+                    <div class="promo-food-card sushi-section-card spec-card-sushi">
+                        <img src="img/img2.jpg" alt="">
+                    </div>
+                </a>
+    
+                <a id="myBtn7">
+                    <div class="promo-food-card sushi-section-card spec-card-sushi">
+                        <img src="img/img3.jpg" alt="">
+                    </div>
+                </a>
+        </div>
+    </div>
+<!--End Sushi Section-->
+
+<!--Modal section-->
+        <div id="myModal" class="modal">
+
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <a href="img/img1.jpg" target="_blank">
+                    <div class="promo-food-card sushi-section-card">
+                        <img src="img/img1.jpg" alt="">
+                    </div>
+                </a>
+                <div class="model-sushi-products">
+                    <h3 class="modal-text">Urumaki<sup class="size-of-sushi">200g</sup></h3>
+                    <center><hr class="horizontal-line moddal-line"></center>
+                    <p>
+                        Rice, soy nori, 
+                        shrimp tempura, 
+                        Philadelphia - on top, 
+                        Dragon sauce.
+                    </p>
+                    <a href="#">
+                        <button type="button" name="add-sushi" id="add-to-cart" class="sushi-price modal-btn" onclick="noregistration()">Add 7<sup>27</sup></button>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div id="myModal2" class="modal">
+
+            <div class="modal-content">
+                <span class="close2">&times;</span>
+                <a href="img/img4.jpg" target="_blank">
+                    <div class="promo-food-card sushi-section-card">
+                        <img src="img/img4.jpg" alt="">
+                    </div>
+                </a>
+                <div class="model-sushi-products">
+                    <h3 class="modal-text">Hosomaki Vulkan<sup class="size-of-sushi">100g</sup></h3>
+                    <center><hr class="horizontal-line moddal-line"></center>
+                    <p>
+                        Spicy tone,
+                        dragon sauce
+                        and sesame mix
+                    </p>
+                    <a href="#">
+                        <button type="button" name="add-sushi" id="add-to-cart" class="sushi-price modal-btn" onclick="noregistration()">Add 6<sup>48</sup></button>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="myModal3" class="modal">
+
+            <div class="modal-content">
+                <span class="close3">&times;</span>
+                <a href="img/img5.jpg" target="_blank">
+                    <div class="promo-food-card sushi-section-card">
+                        <img src="img/img5.jpg" alt="">
+                    </div>
+                </a>
+                <div class="model-sushi-products">
+                    <h3 class="modal-text">Hosomaki Philadelphia<sup class="size-of-sushi">100g</sup></h3>
+                    <center><hr class="horizontal-line moddal-line"></center>
+                    <p>
+                        Philadelphia,
+                        cucumber,
+                        rice and nori
+                    </p>
+                    <a href="#">
+                        <button type="button" name="add-sushi" id="add-to-cart" class="sushi-price modal-btn" onclick="noregistration()">Add 4<sup>49</sup></button>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="myModal4" class="modal">
+
+            <div class="modal-content">
+                <span class="close4">&times;</span>
+                <a href="img/img6.jpg" target="_blank">
+                    <div class="promo-food-card sushi-section-card">
+                        <img src="img/img6.jpg" alt="">
+                    </div>
+                </a>
+                <div class="model-sushi-products">
+                    <h3 class="modal-text">Hosomaki shrimp<sup class="size-of-sushi">100g</sup></h3>
+                    <center><hr class="horizontal-line moddal-line"></center>
+                    <p>
+                        Rice,
+                        soy nori,
+                        shrimp tempura,
+                        Philadelphia - top,
+                        Dragon sauce
+                    </p>
+                    <a href="#">
+                        <button type="button" name="add-sushi" id="add-to-cart" class="sushi-price modal-btn" onclick="noregistration()">Add 6<sup>98</sup></button>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div id="myModal5" class="modal">
+
+            <div class="modal-content spec-img-width">
+                <span class="close5">&times;</span>
+                <a href="img/img8.jpg" target="_blank">
+                    <div class="promo-food-card sushi-section-card">
+                        <img src="img/img8.jpg" alt="">
+                    </div>
+                </a>
+                <div class="model-sushi-products">
+                    <h3 class="modal-text">Futomaki Boston<sup class="size-of-sushi">150g</sup></h3>
+                    <center><hr class="horizontal-line moddal-line"></center>
+                    <p>
+                        Philadelphia, mousse, salmon,
+                        Dragon sauce, mayonnaise and crispy tempura
+                    </p>
+                    <a href="#">
+                        <button type="button" name="add-sushi" id="add-to-cart" class="sushi-price modal-btn" onclick="noregistration()">Add 35<sup>37</sup></button>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div id="myModal6" class="modal">
+
+            <div class="modal-content spec-img-width">
+                <span class="close6">&times;</span>
+                <a href="img/img2.jpg" target="_blank">
+                    <div class="promo-food-card sushi-section-card">
+                        <img src="img/img2.jpg" alt="">
+                    </div>
+                </a>
+                <div class="model-sushi-products">
+                    <h3 class="modal-text">Futomaki Rack<sup class="size-of-sushi">250g</sup></h3>
+                    <center><hr class="horizontal-line moddal-line"></center>
+                    <p>
+                        Japanese mayonnaise,
+                        chives,
+                        tobiko,
+                        crab with
+                        soft shell
+                    </p>
+                    <a href="#">
+                        <button type="button" name="add-sushi" id="add-to-cart" class="sushi-price modal-btn" onclick="noregistration()">Add 15<sup>87</sup></button>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="myModal7" class="modal">
+
+            <div class="modal-content spec-img-width">
+                <span class="close7">&times;</span>
+                <a href="img/img3.jpg" target="_blank">
+                    <div class="promo-food-card sushi-section-card">
+                        <img src="img/img3.jpg" alt="">
+                    </div>
+                </a>
+                <div class="model-sushi-products">
+                    <h3 class="modal-text">
+                        Fashion roll<sup class="size-of-sushi">200g</sup></h3>
+                    <center><hr class="horizontal-line moddal-line"></center>
+                    <p>
+                        Salmon, 
+                        Philadelphia, 
+                        orange, 
+                        avocado, 
+                        cucumber
+                    </p>
+                    <a href="#">
+                        <button type="button" name="add-sushi" id="add-to-cart" class="sushi-price modal-btn" onclick="noregistration()">Add 18<sup>49</sup></button>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="myModal8" class="modal">
+
+            <div class="modal-content registration-content">
+                <span class="close8">&times;</span>
+                <div class="model-sushi-products Registration-alert">
+                    <h3 class="modal-text not-registre-yet">To Add this item to your cart firt you must login</h3>
+                    <a href="Login.html">
+                        <button type="button" name="add-sushi" id="add-to-cart" class="sushi-price modal-btn register-btn">Login</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="myModal9" class="modal">
+
+            <div class="modal-content registration-content">
+                <span class="close9">&times;</span>
+                <div class="model-sushi-products Registration-alert">
+                    <h3 class="modal-text not-registre-yet">To Add this item to your cart firt you must login</h3>
+                    <a href="Login.html">
+                        <button type="button" name="add-sushi" id="add-to-cart" class="sushi-price modal-btn register-btn">Login</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div id="myModal10" class="modal">
+
+            <div class="modal-content registration-content">
+                <span class="close10">&times;</span>
+                <div class="model-sushi-products Registration-alert">
+                    <h3 class="modal-text not-registre-yet">To Add this item to your cart firt you must login</h3>
+                    <a href="Login.html">
+                        <button type="button" name="add-sushi" id="add-to-cart" class="sushi-price modal-btn register-btn">Login</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+<!--End Modal section-->
+
+<!--Footer section-->
+    <footer class="footer">
+        <div class="footer-logo footer-info">
+            <img src="img/logo3.png" alt="">
+        </div>
+
+        <div class="footer-info">
+            <h1>About us</h1>
+            <div class="about-us">
+                <ul>
+                    <li>
+                        <i class="fa fa-phone"></i> (+359) 88 923 5683
+                    </li>
+                    <li>
+                        <i class="fa fa-envelope"></i> SALASsushi.bar@gmail.com
+                    </li>
+                    <li>
+                        <i class="fa fa-map-marker"></i> Bul. "Car Boris III Obedinitel №45"
+                    </li>
+                </ul>
+            </div>
+            <h3>you can follow us</h3>
+
+            <div class="icons facebook">
+                <i class="fa fa-facebook"></i>
+            </div>
+            <div class="icons twitter">
+                <i class="fa fa-twitter"></i>
+            </div>
+            <div class="icons youtube">
+                <i class="fa fa-youtube"></i>
+            </div>
+
+
+        </div>
+
+        <div class="footer-info">
+            <h1>Work time</h1>
+            <div class="work-time">
+                <p>Every day</p>
+                <ul>
+                    <li>
+                        from 9-30 to 22-30
+                    </li>
+                </ul>
+                <p>Holidays</p>
+                <ul>
+                    <li>
+                        from 10-30 to 19-30
+                    </li>
+                </ul>
+                <p>Sunday</p>
+                <ul>
+                    <li>
+                        <span class="footer-span-closed">Closed</span> 
+                    </li>
+                </ul>
+            </div>
+        </div> 
+    </footer>
+
+    <div class="copy">
+        &copy; GK - SALAS | Georgi Kitipov
+    </div>
+<!--End Footer-->
+
+
+    <!--JavaScript section-->
+    <script src="JavaScript/Js.js"></script>
+</body>
+</html>
